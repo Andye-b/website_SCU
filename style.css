@@ -93,9 +93,23 @@ p {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .logo-container img {
   height: 40px;
+  transition: opacity 0.3s;
+}
+
+/* Por defecto, mostrar solo el logo normal */
+.logo-scrolled {
+  display: none;
+}
+
+/* Cuando header tiene la clase scrolled */
+.main-header.scrolled .logo-default {
+  display: none;
+}
+
+.main-header.scrolled .logo-scrolled {
+  display: block;
 }
 
 nav a {
