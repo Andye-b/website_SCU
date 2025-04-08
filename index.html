@@ -4,69 +4,147 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Serra Centro Urbano</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/assets/logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+  <!-- Barra de anuncio -->
+  <div class="announcement-bar">
+    Preventa de locales comerciales abierta. ¡Contáctanos!
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="header-inner">
+      <div class="left">
+        <div class="logo-container">
+          <img src="/assets/logo.png" alt="Serra Centro Urbano Logo">
+        </div>
+      </div>
+      <div class="center">
+        <nav>
+          <a href="#conocenos">Conócenos</a>
+          <a href="#espacios">Espacios</a>
+          <a href="#actividades">Actividades</a>
+          <a href="#eventos">Eventos</a>
+          <a href="#invertir">Invertir</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
   <!-- Hero Section -->
-  <section class="hero">
+  <section id="inicio" class="hero">
     <div class="hero-content">
       <h1>Serra Centro Urbano</h1>
-      <p>Vida, trabajo, comunidad y experiencia en un solo lugar.</p>
-      <a href="#conoce" class="button">Conoce SCU</a>
+      <p>Un nuevo modelo de vida urbana.</p>
+      <a href="#conocenos" class="button">Conoce el Proyecto</a>
     </div>
   </section>
 
   <!-- ¿Qué es SCU? -->
-  <section id="conoce" class="light">
-    <div class="container">
-      <h2>Un nuevo modelo de ciudad.</h2>
-      <p>Oficinas, comercio, deporte, gastronomía, educación y vida social. Todo en un ecosistema urbano interconectado y vibrante.</p>
+  <section id="conocenos" class="container">
+    <h2>¿Qué es Serra Centro Urbano?</h2>
+    <p>Un ecosistema urbano donde se integran oficinas, comercio, gastronomía, educación, deporte y vida social en un solo espacio interconectado.</p>
+  </section>
+
+  <!-- Actividades Diarias -->
+  <section id="actividades" class="container">
+    <h2>Experiencias todos los días</h2>
+    <div class="grid-images">
+      <img src="/assets/actividad1.jpg" alt="Clase de Cerámica">
+      <img src="/assets/actividad2.jpg" alt="Entrenamiento Deportivo">
+      <img src="/assets/actividad3.jpg" alt="Taller de Cocina">
+      <img src="/assets/actividad4.jpg" alt="Concierto Acústico">
     </div>
   </section>
 
-  <!-- Espacio para todos -->
-  <section class="features">
-    <div class="container">
-      <h2>Un espacio para todos</h2>
-      <div class="grid">
-        <div class="card">Oficinas & Comercio</div>
-        <div class="card">Deporte & Bienestar</div>
-        <div class="card">Educación & Cultura</div>
-        <div class="card">Gastronomía & Vida Social</div>
-      </div>
+  <!-- Eventos Especiales -->
+  <section id="eventos" class="container">
+    <h2>Eventos que Conectan</h2>
+    <div class="grid-images">
+      <img src="/assets/evento1.jpg" alt="Expo Bicicletas">
+      <img src="/assets/evento2.jpg" alt="Mercado Gourmet">
+      <img src="/assets/evento3.jpg" alt="Festival Musical">
+      <img src="/assets/evento4.jpg" alt="Competencia de Escalada">
     </div>
   </section>
 
-  <!-- Fusión Parque Serra y Casa Serra -->
-  <section class="fusion">
-    <div class="container">
-      <h2>La fusión perfecta: Usuario, Espacio y Comunidad.</h2>
-      <p>Dos visiones exitosas se unen para construir Serra Centro Urbano: un ecosistema que inspira y conecta.</p>
+  <!-- Espacios -->
+  <section id="espacios" class="container">
+    <h2>Espacios para cada necesidad</h2>
+    <div class="grid-buttons">
+      <div class="visit-button">Oficinas Privadas</div>
+      <div class="visit-button">Locales Comerciales</div>
+      <div class="visit-button">Áreas Deportivas</div>
+      <div class="visit-button">Salas de Eventos</div>
     </div>
   </section>
 
-  <!-- Modelo de Negocio -->
-  <section class="modelo light">
-    <div class="container">
-      <h2>Modelo de Negocio</h2>
-      <p>Fuentes de ingreso diversificadas: locales, oficinas, eventos, gastronomía, deporte y educación. Consolidación de ingresos ➔ distribución ➔ retorno para inversionistas.</p>
-    </div>
+  <!-- Inversión -->
+  <section id="invertir" class="container">
+    <h2>Invierte en el futuro urbano</h2>
+    <p>Participa en proyectos de alta rentabilidad respaldados en activos reales y vive la evolución de la vida urbana.</p>
+    <a href="#contacto" class="button">Solicitar Información</a>
   </section>
 
-  <!-- CTA -->
-  <section class="cta">
-    <div class="container">
-      <h2>Forma parte del futuro</h2>
-      <p>Construyamos juntos Serra Centro Urbano.</p>
-      <a href="#contacto" class="button">Solicitar Información</a>
-    </div>
+  <!-- Contacto -->
+  <section id="contacto" class="container">
+    <h2>Contáctanos</h2>
+    <p>Ubícanos en Querétaro. Escríbenos para conocer más sobre SCU.</p>
+    <button>Enviar Mensaje</button>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Serra Centro Urbano. Todos los derechos reservados.</p>
+    <div class="footer-container">
+      <div class="footer-content">
+
+        <div class="footer-logo">
+          <img src="/assets/logo_sq_scu.png" alt="Serra Centro Urbano Logo">
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Nosotros</h4>
+            <ul>
+              <li><a href="#conocenos">¿Qué es SCU?</a></li>
+              <li><a href="#espacios">Espacios</a></li>
+              <li><a href="#invertir">Inversión</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contacto</h4>
+            <ul>
+              <li><a href="#contacto">Contáctanos</a></li>
+              <li><a href="#">Aviso de Privacidad</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Serra Centro Urbano. Todos los derechos reservados.</p>
+      </div>
+    </div>
   </footer>
+
+  <!-- Script para scroll header -->
+  <script>
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('header');
+      if (window.scrollY > 100) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
 
 </body>
 </html>
