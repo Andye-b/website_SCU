@@ -85,26 +85,27 @@ p {
   margin: 0 auto;
 }
 
-/* Logo */
+/* Logo container mejorado */
 .logo-container {
   position: relative;
+  width: 160px; /* ajusta al tamaño de tu logo */
+  height: 40px; /* altura fija para que no brinque */
+  overflow: hidden;
 }
 
 .logo-container img {
-  height: 40px;
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
+  width: auto;
   transition: opacity 0.4s ease;
+  opacity: 0;
 }
 
 /* Mostrar solo el logo normal al inicio */
 .logo-default {
   opacity: 1;
-}
-
-.logo-scrolled {
-  opacity: 0;
 }
 
 /* Cuando hace scroll */
@@ -140,7 +141,7 @@ nav a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 80px; /* para que el contenido baje y no lo tape el header */
+  padding-top: 80px; /* para que el contenido no se tape con header */
   color: #fff;
   position: relative;
   z-index: 1;
