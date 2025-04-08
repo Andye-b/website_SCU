@@ -110,16 +110,22 @@ nav a {
   color: #333;
 }
 
-/* Hero principal */
+/* HERO section */
 .hero {
-  height: 100vh;
-  background: url('/assets/foto_hero_1.jpg´) center/cover no-repeat;
+  background-image: url('assets/foto_hero_1.png');
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
+  padding-top: 21px; /* Pequeño padding para que el contenido no se tape con nav */
+  margin-top: 0; /* Quitar cualquier margin-top */
+  color: var(--text-color);
+  position: relative;
+  z-index: 1;
 }
 
 .hero-content h1 {
