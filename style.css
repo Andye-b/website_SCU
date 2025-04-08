@@ -113,7 +113,7 @@ nav a {
 /* Hero principal */
 .hero {
   height: 100vh;
-  background: url('/assets/Serra_Centro_Urbano.jpg´) center/cover no-repeat;
+  background: url('/assets/foto_hero_1.jpg´) center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
