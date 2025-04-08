@@ -59,15 +59,6 @@ p {
   background: #0056b3;
 }
 
-/* Barra de anuncio */
-.announcement-bar {
-  background: #000;
-  color: #fff;
-  text-align: center;
-  padding: 8px 0;
-  font-size: 0.9rem;
-}
-
 /* Header */
 .main-header {
   position: fixed;
@@ -93,25 +84,39 @@ p {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* Logo */
+.logo-container {
+  position: relative;
+}
+
 .logo-container img {
   height: 40px;
-  transition: opacity 0.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s ease;
 }
 
-/* Por defecto, mostrar solo el logo normal */
+/* Mostrar solo el logo normal al inicio */
+.logo-default {
+  opacity: 1;
+}
+
 .logo-scrolled {
-  display: none;
+  opacity: 0;
 }
 
-/* Cuando header tiene la clase scrolled */
+/* Cuando hace scroll */
 .main-header.scrolled .logo-default {
-  display: none;
+  opacity: 0;
 }
 
 .main-header.scrolled .logo-scrolled {
-  display: block;
+  opacity: 1;
 }
 
+/* Navegación */
 nav a {
   margin: 0 15px;
   text-decoration: none;
@@ -135,9 +140,8 @@ nav a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 21px; /* Pequeño padding para que el contenido no se tape con nav */
-  margin-top: 0; /* Quitar cualquier margin-top */
-  color: var(--text-color);
+  padding-top: 80px; /* para que el contenido baje y no lo tape el header */
+  color: #fff;
   position: relative;
   z-index: 1;
 }
