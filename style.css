@@ -113,7 +113,7 @@ p {
 
 /* Cambio al hacer scroll */
 .main-header.scrolled .logo-default {
-  opacity: 0;
+  opacity: 1;
 }
 
 .main-header.scrolled .logo-scrolled {
