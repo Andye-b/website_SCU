@@ -30,7 +30,7 @@
   </header>
 
   <!-- Hero Section -->
-  <section id="inicio" class="hero">
+  <section id="inicio" class="hero fade-in-section">
     <div class="hero-content">
       <h1>Serra Centro Urbano</h1>
       <p>Un nuevo modelo de vida urbana.</p>
@@ -39,13 +39,13 @@
   </section>
 
   <!-- ¿Qué es SCU? -->
-  <section id="conocenos" class="container">
+  <section id="conocenos" class="container fade-in-section">
     <h2>¿Qué es Serra Centro Urbano?</h2>
     <p>Un ecosistema urbano donde se integran oficinas, comercio, gastronomía, educación, deporte y vida social en un solo espacio interconectado.</p>
   </section>
 
   <!-- Actividades Diarias -->
-  <section id="actividades" class="container">
+  <section id="actividades" class="container fade-in-section">
     <h2>Experiencias todos los días</h2>
     <div class="grid-images">
       <img src="assets/actividad1.jpg" alt="Clase de Cerámica">
@@ -56,7 +56,7 @@
   </section>
 
   <!-- Eventos Especiales -->
-  <section id="eventos" class="container">
+  <section id="eventos" class="container fade-in-section">
     <h2>Eventos que Conectan</h2>
     <div class="grid-images">
       <img src="assets/evento1.jpg" alt="Expo Bicicletas">
@@ -67,7 +67,7 @@
   </section>
 
   <!-- Espacios -->
-  <section id="espacios" class="container">
+  <section id="espacios" class="container fade-in-section">
     <h2>Espacios para cada necesidad</h2>
     <div class="grid-buttons">
       <div class="visit-button">Oficinas Privadas</div>
@@ -78,14 +78,14 @@
   </section>
 
   <!-- Inversión -->
-  <section id="invertir" class="container">
+  <section id="invertir" class="container fade-in-section">
     <h2>Invierte en el futuro urbano</h2>
     <p>Participa en proyectos de alta rentabilidad respaldados en activos reales y vive la evolución de la vida urbana.</p>
     <a href="#contacto" class="button">Solicitar Información</a>
   </section>
 
   <!-- Contacto -->
-  <section id="contacto" class="container">
+  <section id="contacto" class="container fade-in-section">
     <h2>Contáctanos</h2>
     <p>Ubícanos en Querétaro. Escríbenos para conocer más sobre SCU.</p>
     <button class="button">Enviar Mensaje</button>
@@ -122,21 +122,8 @@
     </div>
   </footer>
 
-  <!-- Script para cambio de logo -->
-  <script>
-    window.addEventListener('scroll', function() {
-      const header = document.querySelector('.main-header');
-      const hero = document.querySelector('.hero');
-      const heroHeight = hero.offsetHeight;
-      const scrollPosition = window.scrollY;
-
-      if (scrollPosition > heroHeight - 100) {
-        header.classList.add('scrolled');
-      } else {
-        header.classList.remove('scrolled');
-      }
-    });
-  </script>
+  <!-- Script para scroll -->
+  <script src="script.js"></script>
 
 </body>
 </html>
