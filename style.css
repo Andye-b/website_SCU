@@ -136,14 +136,6 @@ nav a {
   transition: color 0.3s ease;
 }
 
-.main-header.scrolled nav {
-  background: rgba(255,255,255,1);
-}
-
-.main-header.scrolled nav a {
-  color: #333;
-}
-
 /* HERO section */
 .hero {
   background-image: url('assets/foto_hero_1.png');
