@@ -66,8 +66,8 @@ p {
   top: 0;
   width: 100%;
   padding: 10px 0;
-  background: rgba(0, 0, 0, 0.3); /* Fondo oscuro sutil */
-  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.3); /* Fondo oscuro sutil */
+  /*backdrop-filter: blur(5px);*/
   -webkit-backdrop-filter: blur(5px);
   transition: background 0.4s ease, padding 0.4s ease;
   z-index: 1000;
