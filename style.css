@@ -66,8 +66,7 @@ p {
   top: 0;
   width: 100%;
   padding: 10px 0;
-  background: rgba(255, 255, 255, 0.3); /* Fondo oscuro sutil */
-  /*backdrop-filter: blur(5px);*/
+  background: rgba(255, 255, 255, 0.3);
   -webkit-backdrop-filter: blur(5px);
   transition: background 0.4s ease, padding 0.4s ease;
   z-index: 1000;
@@ -158,7 +157,7 @@ nav a {
   color: #fff;
   position: relative;
   z-index: 1;
-  padding-top: 100px; /* Espacio para header fijo */
+  padding-top: 100px;
 }
 
 .hero-content h1 {
@@ -202,6 +201,8 @@ nav a {
   cursor: pointer;
   text-align: center;
 }
+
+/* Signup Container */
 .signup-container {
   max-width: 400px;
   margin: 50px auto;
@@ -209,11 +210,13 @@ nav a {
   border: 1px solid #ccc;
   border-radius: 10px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
 }
 
 .signup-container h2 {
   margin-bottom: 15px;
+  color: #383331;
 }
 
 .signup-container input[type="email"] {
@@ -229,15 +232,17 @@ nav a {
   padding: 10px 20px;
   font-size: 16px;
   border: none;
-  background-color: #007BFF;
+  background-color: #82513A;
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .signup-container button:hover {
-  background-color: #0056b3;
+  background-color: #5a3928;
 }
+
 /* Footer */
 footer {
   background: #383331;
@@ -314,16 +319,9 @@ footer {
 .social-icons img:hover {
   filter: brightness(120%);
 }
-/* Fade-in effect for sections 
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-  will-change: opacity, transform;
-}
-*/
+
+/* Fade-in effect for sections */
 .fade-in-section.is-visible {
   opacity: 1;
   transform: none;
 }
-
