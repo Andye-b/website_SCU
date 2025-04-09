@@ -65,9 +65,11 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 10px 0;
-  background: transparent;
-  transition: background 0.3s ease, padding 0.3s ease;
+  padding: 40px 0;
+  background: rgba(255, 255, 255, 0.03); /* Casi transparente */
+  backdrop-filter: blur(5px); /* BLUR moderno */
+  -webkit-backdrop-filter: blur(5px); /* Safari support */
+  transition: background 0.4s ease, padding 0.4s ease;
   z-index: 1000;
 }
 
@@ -104,10 +106,12 @@ p {
   transition: opacity 0.5s ease;
 }
 
+/* Logo normal visible al inicio */
 .logo-default {
   opacity: 1;
 }
 
+/* Cambio al hacer scroll */
 .main-header.scrolled .logo-default {
   opacity: 0;
 }
@@ -136,6 +140,10 @@ nav a {
   transition: color 0.3s ease;
 }
 
+.main-header.scrolled nav a {
+  color: #383331;
+}
+
 /* HERO section */
 .hero {
   background-image: url('assets/foto_hero_1.png');
@@ -150,6 +158,7 @@ nav a {
   color: #fff;
   position: relative;
   z-index: 1;
+  padding-top: 100px; /* pequeño ajuste para que no tape */
 }
 
 .hero-content h1 {
@@ -251,6 +260,7 @@ footer {
   border-top: 1px solid #444;
 }
 
+/* Social Icons */
 .social-icons {
   margin-top: 15px;
 }
