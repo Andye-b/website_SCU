@@ -89,6 +89,9 @@ p {
 
 /* Logo */
 .logo-container {
+  background: red; /* solo para debug, luego lo quitas */
+}
+/*.logo-container {*/
   position: relative;
   width: 160px;
   height: 50px;
