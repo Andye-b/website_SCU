@@ -66,7 +66,7 @@ p {
   top: 0;
   width: 100%;
   padding: 40px 0;
-  background: rgba(0, 0, 0, 0.2); /* fondo oscuro super ligero */
+  background: rgba(0, 0, 0, 0.4); /* Fondo oscuro sutil */
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   transition: background 0.4s ease, padding 0.4s ease;
@@ -88,7 +88,7 @@ p {
   margin: 0 auto;
 }
 
-/* Logo container */
+/* Logo */
 .logo-container {
   position: relative;
   width: 160px;
@@ -106,7 +106,7 @@ p {
   transition: opacity 0.5s ease;
 }
 
-/* Logo normal visible al inicio */
+/* Logo normal visible */
 .logo-default {
   opacity: 1;
 }
@@ -158,7 +158,7 @@ nav a {
   color: #fff;
   position: relative;
   z-index: 1;
-  padding-top: 100px; /* espacio para el header */
+  padding-top: 100px; /* Espacio para header fijo */
 }
 
 .hero-content h1 {
@@ -278,4 +278,17 @@ footer {
 
 .social-icons img:hover {
   filter: brightness(120%);
+}
+
+/* Fade-in effect for sections */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
 }
