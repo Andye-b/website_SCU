@@ -89,9 +89,9 @@ p {
 
 /* Logo */
 .logo-container {
-  width: 160px;
-  height: 50px;
-  overflow: hidden;
+  max-width: 160px; /* Tamaño máximo en desktop */
+  width: 30vw;      /* Escala en pantallas pequeñas (30% del ancho de viewport) */
+  height: auto;     /* Que el alto se ajuste automáticamente */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,6 +113,7 @@ p {
   fill: #000000;
   opacity: 0.85;
 }
+
 
 
 
