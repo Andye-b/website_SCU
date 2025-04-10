@@ -104,12 +104,15 @@ p {
 
 .logo-fill {
   fill: #ffffff; /* Color inicial blanco */
-  transition: fill 0.5s ease;
+  opacity: 1; /* Opacidad inicial */
+  transition: fill 0.5s ease, opacity 0.5s ease; /* Transiciones suaves */
 }
 
 .main-header.scrolled .logo-fill {
-  fill: #000000; /* Color al hacer scroll */
+  fill: #000000; /* Color negro */
+  opacity: 0.85; /* Baja un poquito la opacidad para dar efecto de fade */
 }
+
 
 
 
