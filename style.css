@@ -89,28 +89,28 @@ p {
 
 /* Logo */
 .logo-container {
-  /* background: red; solo para debug, luego lo quitas */
-  position: relative;
   width: 160px;
   height: 50px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo-icon {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
-/* Control de color dinámico */
 .logo-fill {
-  fill: #ffffff; /* Color inicial: blanco */
+  fill: #ffffff; /* Color inicial blanco */
   transition: fill 0.5s ease;
 }
 
-/* Cambio de color del logo al hacer scroll */
 .main-header.scrolled .logo-fill {
-  fill: #000000; /* Color cuando el header está scrolleado */
+  fill: #000000; /* Color al hacer scroll */
 }
+
 
 
 /* Navegación */
