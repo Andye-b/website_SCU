@@ -89,36 +89,29 @@ p {
 
 /* Logo */
 .logo-container {
-  /* background: red;  solo para debug, luego lo quitas */
+  /* background: red; solo para debug, luego lo quitas */
   position: relative;
   width: 160px;
   height: 50px;
   overflow: hidden;
 }
 
-.logo-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
+.logo-icon {
+  width: 100%;
   height: 100%;
-  width: auto;
-  opacity: 0;
-  transition: opacity 0.5s ease;
 }
 
-/* Logo normal visible */
-.logo-default {
-  opacity: 1;
+/* Control de color dinámico */
+.logo-fill {
+  fill: #ffffff; /* Color inicial: blanco */
+  transition: fill 0.5s ease;
 }
 
-/* Cambio de logos al hacer scroll */
-.main-header.scrolled .logo-default {
-  opacity: 0;
+/* Cambio de color del logo al hacer scroll */
+.main-header.scrolled .logo-fill {
+  fill: #000000; /* Color cuando el header está scrolleado */
 }
 
-.main-header.scrolled .logo-scrolled {
-  opacity: 1;
-}
 
 /* Navegación */
 nav {
