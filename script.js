@@ -34,3 +34,17 @@ const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll
 faders.forEach(fader => {
   appearOnScroll.observe(fader);
 });
+// Expandir y colapsar sección White Paper
+const toggleBtn = document.getElementById('toggle-whitepaper');
+const whitePaperContent = document.getElementById('white-paper-content');
+
+toggleBtn.addEventListener('click', () => {
+  if (whitePaperContent.style.maxHeight && whitePaperContent.style.maxHeight !== "0px") {
+    whitePaperContent.style.maxHeight = "0px";
+    toggleBtn.textContent = "Ver más";
+  } else {
+    whitePaperContent.style.maxHeight = whitePaperContent.scrollHeight + "px";
+    toggleBtn.textContent = "Ver menos";
+  }
+});
+
