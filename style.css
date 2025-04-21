@@ -399,4 +399,7 @@ footer {
     flex-grow: 1; /* Allow the logo to take up available space */
     justify-content: center; /* Center the logo on mobile */
   }
+  .footer-content {
+    justify-content: center;
+   } 
 }
