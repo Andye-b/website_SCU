@@ -375,7 +375,9 @@ footer {
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .hamburger-menu {
+    order: 0
     display: flex;
+    justify-content: flex-start;
   }
 
   .nav-links {
@@ -393,4 +395,10 @@ footer {
   .nav-links.active {
     display: flex;
   }
+  {
+  .logo-container {
+    flex-grow: 1; /* Allow the logo to take up available space */
+    justify-content: center; /* Center the logo on mobile */
+  }
+}
 }
