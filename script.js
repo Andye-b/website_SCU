@@ -48,3 +48,11 @@ toggleBtn.addEventListener('click', () => {
   }
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+  const menuButton = document.querySelector('.hamburger-menu');
+  const navLinks = document.querySelector('.nav-links');
+
+  menuButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active'); // Toggle the `active` class
+  });
+});
