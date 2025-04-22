@@ -270,7 +270,7 @@ footer {
 .footer-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
