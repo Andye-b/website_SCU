@@ -181,9 +181,12 @@ nav a {
 }
 
 .vision-item {
-  padding: 10px;
+  padding: 30px;
   border-radius: 12px;
   transition: all 0.2s ease;
+}
+.vision-item .content {
+  width: 100%;
 }
 
 .vision-item:hover {
