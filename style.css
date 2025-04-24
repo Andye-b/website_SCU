@@ -209,7 +209,7 @@ nav a {
 }
 
 .vision-item.wide {
-  grid-column: span 2;
+  grid-column: span 3;
 }
 
 @media (max-width: 768px) {
