@@ -245,7 +245,13 @@ nav a {
   .vision-item.image-block {
     grid-column: span 1;
   }
-
+.vision-item.text {
+  padding: 0;
+}
+  .vision-item.text h3,
+  .vision-item.text p{
+  padding: 20px;
+}
   .vision-item {
     padding: 20px 10px;
   }
