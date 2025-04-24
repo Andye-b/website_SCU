@@ -220,7 +220,6 @@ nav a {
 
 .vision-item.image-block img {
   height: 100%;
-  border-radius: 12px;
   object-fit: cover;
 }
 
