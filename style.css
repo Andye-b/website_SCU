@@ -237,11 +237,24 @@ nav a {
     padding: 60px 20px;
   }
 
-  .vision-item.wide {
+  .vision-item,
+  .vision-item.wide,
+  .vision-item.wideb,
+  .vision-item.text,
+  .vision-item.image-block {
     grid-column: span 1;
   }
-}
 
+  .vision-item {
+    padding: 20px 10px;
+  }
+
+  .vision-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
 
 
 /* Grids de imágenes */
