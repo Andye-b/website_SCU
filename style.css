@@ -216,6 +216,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .vision-item.image-block img {
