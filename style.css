@@ -169,48 +169,60 @@ nav a {
   font-size: 1.5rem;
 }
 /* Sección principal */
-.vision-grid {
+.vision-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
   gap: 40px;
   padding: 80px 5%;
-  background-color: #F7F4F0;
-  font-family: 'Montserrat', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #F7F4F0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.vision-block {
+.vision-item {
   background: #fff;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.vision-block:hover {
+.vision-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
-.vision-block h2,
-.vision-block h3 {
+.vision-item h1,
+.vision-item h2,
+.vision-item h3 {
   color: #82513A;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.vision-block p {
+.vision-item p {
   font-size: 1rem;
   color: #333;
   line-height: 1.6;
 }
 
+.vision-item.wide {
+  grid-column: span 2;
+}
+
 @media (max-width: 768px) {
-  .vision-grid {
+  .vision-layout {
+    grid-template-columns: 1fr;
     padding: 60px 20px;
   }
+
+  .vision-item.wide {
+    grid-column: span 1;
+  }
 }
+
 
 
 /* Grids de imágenes */
