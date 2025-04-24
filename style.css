@@ -172,12 +172,13 @@ nav a {
 /* Sección principal */
 .vision-layout {
   display: grid;
+  margin:0, auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   padding: 80px 5%;
   max-width: 1200px;
   font-family: 'Montserrat', sans-serif;
-  align: center;
+  ;
 }
 
 .vision-item {
