@@ -181,7 +181,6 @@ nav a {
 }
 
 .vision-item {
-  padding: 30px;
   border-radius: 12px;
   transition: all 0.2s ease;
 }
@@ -194,14 +193,13 @@ nav a {
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
-.vision-item h1,{
-  font-size: 6rem;
-}
+.vision-item h1,
 .vision-item h2,
 .vision-item h3 {
   color: #383331;
   font-weight: 700;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .vision-item p {
@@ -209,6 +207,7 @@ nav a {
   color: #333;
   line-height: 1.6;
   max-width: none;
+  padding: 10px;
 }
 
 .vision-item.image-block {
