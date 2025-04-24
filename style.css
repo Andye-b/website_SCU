@@ -192,7 +192,9 @@ nav a {
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
 }
 
-.vision-item h1,
+.vision-item h1,{
+  font-size: 6rem;
+}
 .vision-item h2,
 .vision-item h3 {
   color: #383331;
