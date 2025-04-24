@@ -207,6 +207,7 @@ nav a {
   line-height: 1.6;
   max-width: none;
   padding: 5px, 10px;
+  justify-content: center;
 }
 
 .vision-item.image-block {
