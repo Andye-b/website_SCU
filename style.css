@@ -168,6 +168,64 @@ nav a {
 .hero-content p {
   font-size: 1.5rem;
 }
+/* Sección principal */
+.vision {
+  background-color: #F7F4F0; /* Fondo suave */
+  padding: 80px 5%;
+  font-family: 'Montserrat', sans-serif;
+  color: #383331;
+  line-height: 1.7;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Encabezado principal grande */
+.vision .headline {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #82513A; /* Color SCU */
+  margin-bottom: 40px;
+}
+
+/* Encabezados por bloque */
+.vision .subhead {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Párrafos */
+.vision .paragraph {
+  font-size: 1.15rem;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+/* Bloques individuales */
+.vision .block {
+  margin-bottom: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .vision {
+    padding: 60px 20px;
+  }
+
+  .vision .headline {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .vision .subhead {
+    font-size: 1.3rem;
+  }
+
+  .vision .paragraph {
+    font-size: 1rem;
+  }
+}
 
 /* Grids de imágenes */
 .grid-images {
