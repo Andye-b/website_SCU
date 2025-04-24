@@ -172,7 +172,7 @@ nav a {
 /* Sección principal */
 .vision-layout {
   display: grid;
-  margin:0, auto;
+  margin:0 auto;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   padding: 80px 5%;
