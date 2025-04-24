@@ -227,6 +227,9 @@ nav a {
 .vision-item.wide {
   grid-column: span 3;
   font-size: 1.8em;
+  text-align: justify;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
 }
 .vision-item.wideb {
   grid-column: span 2/4;
