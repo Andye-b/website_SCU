@@ -211,6 +211,9 @@ nav a {
 .vision-item.wide {
   grid-column: span 3;
 }
+.vision-item.wideb {
+  grid-column: span 3;
+}
 
 @media (max-width: 768px) {
   .vision-layout {
