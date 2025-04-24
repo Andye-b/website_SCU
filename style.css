@@ -265,7 +265,12 @@ nav a {
   }
 }
 
-
+hr {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 40px 0;
+  width: 100%;
+}
 /* Grids de imágenes */
 .grid-images {
   display: grid;
