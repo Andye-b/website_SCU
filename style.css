@@ -270,6 +270,8 @@ hr {
   border-top: 2px solid #383331;
   margin: 5px;
   width: 100%;
+  align: center;
+  
 }
 /* Grids de imágenes */
 .grid-images {
