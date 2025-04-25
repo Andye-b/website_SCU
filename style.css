@@ -272,20 +272,20 @@ nav a {
   .vision-item.wide,
   .vision-item.wideb,
   .vision-item.text,
-  .vision-item.image-block {
+  .vision-item.image-block
+  .rotate-mobile {
     grid-column: span 1;
   }
-.vision-item.text {
+  .vision-item.text {
   padding: 0;
-}
+  }
   .vision-item.text h3,
   .vision-item.text p{
   padding: 20px;
-}
+  }
   .vision-item {
     padding: 20px 10px;
   }
-
   .vision-item img {
     max-width: 100%;
     height: auto;
@@ -304,6 +304,7 @@ nav a {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+  
  }   
 }
 
