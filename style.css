@@ -291,6 +291,13 @@ nav a {
     height: auto;
     border-radius: 8px;
   }
+  .rotate-mobile img {
+    transform: rotate(90deg);
+    transform-origin: center;
+    max-width: 100vh; /* height of the screen becomes width after rotation */
+    max-height: 100vw;
+  }
+}
 }
 
 /* Grids de imágenes */
