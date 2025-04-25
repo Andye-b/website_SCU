@@ -260,10 +260,8 @@ nav a {
   overflow: hidden;
 }
 #modelo-urbano .vision-item.image-block img {
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     transform-origin: center center;
-    width: 100vh; /* height of the screen becomes width after rotation */
-    height: auto;
     display: block;
     margin: 0 auto;
   }
