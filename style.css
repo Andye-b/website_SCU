@@ -293,11 +293,18 @@ nav a {
   }
   .rotate-mobile img {
     transform: rotate(90deg);
-    transform-origin: center;
-    max-width: 100vh; /* height of the screen becomes width after rotation */
-    max-height: 100vw;
+    transform-origin: center center;
+    width: 100vh; /* height of the screen becomes width after rotation */
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
-}
+  .rotate-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }   
 }
 
 /* Grids de imágenes */
