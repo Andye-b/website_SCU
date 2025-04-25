@@ -245,6 +245,9 @@ nav a {
   width: 100%;
   
 }
+#modelo-urbano .vision-item.wideb {
+  grid-column: span 3;
+}
 #modelo-urbano .vision-item h1,
 #modelo-urbano .vision-item h2,
 #modelo-urbano .vision-item h3 {
