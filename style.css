@@ -255,29 +255,20 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
   grid-column: span 3;
   overflow: hidden;
-  aspect-ratio: 1 / 1; /* Start square to avoid collapse */
-  max-width: 600px;     /* optional constraint */
-  margin: 0 auto;
-  position: relative;
+  height: auto;
+  max-height: 600px;
 }
 
 #modelo-urbano .vision-item.image-block img {
   transform: rotate(90deg);
   transform-origin: center center;
-  display: block;
-  max-height: 100%;
-  max-width: none;
+  max-width: 100vh; /* use height as "width" after rotation */
   height: auto;
   width: auto;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(90deg);
+  display: block;
 }
-
 #modelo-urbano .vision-item.wideb {
   grid-column: span 3;
   text-align: justify;
