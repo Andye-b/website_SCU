@@ -258,7 +258,10 @@ nav a {
   padding: 0;
   grid-column: span 3;
 }
-
+#modelo-urbano .vision-item.wideb {
+  grid-column: span 3;
+  text-align: justify;
+}
 @media (max-width: 768px) {
   .vision-layout {
     grid-template-columns: 1fr;
