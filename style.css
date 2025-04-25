@@ -257,11 +257,21 @@ nav a {
   justify-content: center;
   padding: 0;
   grid-column: span 3;
+  overflow: hidden;
 }
+#modelo-urbano .vision-item.image-block img {
+    transform: rotate(-90deg);
+    transform-origin: center center;
+    width: 100vh; /* height of the screen becomes width after rotation */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
 #modelo-urbano .vision-item.wideb {
   grid-column: span 3;
   text-align: justify;
 }
+
 @media (max-width: 768px) {
   .vision-layout {
     grid-template-columns: 1fr;
@@ -272,8 +282,7 @@ nav a {
   .vision-item.wide,
   .vision-item.wideb,
   .vision-item.text,
-  .vision-item.image-block
-  .rotate-mobile {
+  .vision-item.image-block {
     grid-column: span 1;
   }
   .vision-item.text {
@@ -291,21 +300,6 @@ nav a {
     height: auto;
     border-radius: 8px;
   }
-  .rotate-mobile img {
-    transform: rotate(90deg);
-    transform-origin: center center;
-    width: 100vh; /* height of the screen becomes width after rotation */
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  .rotate-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-  
- }   
 }
 
 /* Grids de imágenes */
