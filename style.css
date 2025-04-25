@@ -244,6 +244,14 @@ nav a {
   width: 100%;
   
 }
+#modelo-urbano .vision-item.image-block {
+  grid-column: 1 / 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   .vision-layout {
     grid-template-columns: 1fr;
