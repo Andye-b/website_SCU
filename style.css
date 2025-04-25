@@ -236,6 +236,7 @@ nav a {
 }
 .vision-item.wideb {
   grid-column: span 2/4;
+  font-size: 1.5em;
 }
 .vision-item hr {
   border: none;
@@ -255,7 +256,7 @@ nav a {
 #modelo-urbano .vision-item h3 {
   font-weight: 700;
 }
-#modelo-urbano .vision-item.wide h2 {
+#modelo-urbano .vision-item h2 {
   font-weight: 400;
 }
 #modelo-urbano .vision-item.image-block {
@@ -275,11 +276,6 @@ nav a {
   height: auto;
   width: auto;
   display: block;
-}
-#modelo-urbano .vision-item.wideb {
-  grid-column: span 3;
-  font-size: 1.5em;
-  font-weight: 400;
 }
 
 @media (max-width: 768px) {
