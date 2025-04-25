@@ -231,16 +231,11 @@ nav a {
 .vision-item.wide {
   grid-column: span 3;
   font-size: 1.5em;
-  text-align: left;
   line-height: 1.3;
   letter-spacing: 0.03em;
 }
-.vision-item.wide h2{
-  text-align: justify;
-}
 .vision-item.wideb {
   grid-column: span 2/4;
-  text-align: justify;
 }
 .vision-item hr {
   border: none;
@@ -283,7 +278,6 @@ nav a {
 }
 #modelo-urbano .vision-item.wideb {
   grid-column: span 3;
-  text-align: justify;
 }
 
 @media (max-width: 768px) {
