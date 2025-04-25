@@ -202,14 +202,6 @@ nav a {
   padding: 5px 10px;
   margin: 0;
 }
-#modelo-urbano .vision-item h1,
-#modelo-urbano .vision-item h2,
-#modelo-urbano .vision-item h3 {
-  color: #383331;
-  font-weight: 700;
-  padding: 0px 10px;
-  margin: 0;
-}
 .vision-item p {
   font-size: 1rem;
   color: #333;
@@ -251,6 +243,20 @@ nav a {
   width: 100%;
   
 }
+#modelo-urbano .vision-item h1,
+#modelo-urbano .vision-item h2,
+#modelo-urbano .vision-item h3 {
+  color: #383331;
+  padding: 0px 10px;
+  margin: 0;
+}
+#modelo-urbano .vision-item h1,
+#modelo-urbano .vision-item h3 {
+  font-weight: 700;
+}
+#modelo-urbano .vision-item.wide h2 {
+  font-weight: 400;
+}
 #modelo-urbano .vision-item.image-block {
   display: flex;
   align-items: center;
@@ -268,9 +274,6 @@ nav a {
   height: auto;
   width: auto;
   display: block;
-}
-#modelo-urbano .vision-item.wide p {
-  font-size: 1.2em;
 }
 #modelo-urbano .vision-item.wideb {
   grid-column: span 3;
