@@ -202,7 +202,14 @@ nav a {
   padding: 5px 10px;
   margin: 0;
 }
-
+#modelo-urbano .vision-item h1,
+#modelo-urbano .vision-item h2,
+#modelo-urbano .vision-item h3 {
+  color: #383331;
+  font-weight: 700;
+  padding: 0px 10px;
+  margin: 0;
+}
 .vision-item p {
   font-size: 1rem;
   color: #333;
