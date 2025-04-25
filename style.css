@@ -258,13 +258,26 @@ nav a {
   padding: 0;
   grid-column: span 3;
   overflow: hidden;
+  aspect-ratio: 1 / 1; /* Start square to avoid collapse */
+  max-width: 600px;     /* optional constraint */
+  margin: 0 auto;
+  position: relative;
 }
+
 #modelo-urbano .vision-item.image-block img {
-    transform: rotate(90deg);
-    transform-origin: center center;
-    display: block;
-    margin: 0 auto;
-  }
+  transform: rotate(90deg);
+  transform-origin: center center;
+  display: block;
+  max-height: 100%;
+  max-width: none;
+  height: auto;
+  width: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
 #modelo-urbano .vision-item.wideb {
   grid-column: span 3;
   text-align: justify;
