@@ -257,6 +257,7 @@ nav a {
 }
 #modelo-urbano .vision-item.wide h2 {
   font-weight: 400;
+  font-size: 1.5em;
 }
 #modelo-urbano .vision-item.image-block {
   display: flex;
