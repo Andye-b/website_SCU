@@ -269,6 +269,9 @@ nav a {
   width: auto;
   display: block;
 }
+#modelo-urbano .vision-item.wide p {
+  font-size: 1.5em;
+}
 #modelo-urbano .vision-item.wideb {
   grid-column: span 3;
   text-align: justify;
