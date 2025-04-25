@@ -291,6 +291,18 @@ nav a {
   .vision-item.image-block {
     grid-column: span 1;
   }
+  #modelo-urbano .vision-layout {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+  }
+
+  #modelo-urbano .vision-item,
+  #modelo-urbano .vision-item.wide,
+  #modelo-urbano .vision-item.wideb,
+  #modelo-urbano .vision-item.text,
+  #modelo-urbano .vision-item.image-block {
+    grid-column: span 1;
+  }
   .vision-item.text {
   padding: 0;
   }
